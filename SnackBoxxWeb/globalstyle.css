@@ -1,0 +1,266 @@
+﻿body 
+{
+    margin:0px;
+    color:White; 
+    background-color:Black;    
+}
+td.middle
+{
+    vertical-align:top;
+    text-align:center;
+    height:300px;
+}
+td.footer
+{
+    vertical-align:bottom;
+    text-align:center;
+}
+.defaulttable
+{
+    height:700px; 
+    width:100%;   
+    border-color:Red;  
+}
+.innertabledefault
+{
+    width:100%;
+    height:100px;    
+    border:0px; 
+    border-style:solid; 
+}
+
+.innertableouter
+{
+    border-color:Green;    
+}
+.innertablelogin
+{
+    text-align:center;
+    border-color:Lime;
+    border-spacing:4px;
+}
+.bgimageright
+{
+    background: url(images/MarginGradient.gif) top left;
+    padding-right:0px;
+}
+.bgimageleft
+{
+    background: url(images/MarginGradient.gif) top right;
+    padding-left:0px;
+}
+.bgimagetop
+{
+    background: url(images/ContentArea.gif)no-repeat left top;
+    height: 100px;
+    vertical-align:bottom;
+}
+.bgimagelogin
+{
+    background:url(images/LoginCarbonFiberBgFooter.png) no-repeat top ;  
+}
+#footer
+{
+    height:50px;
+    width:100%; 
+    border:1px;   
+    border-color:Yellow;
+}
+#top
+{
+    height:80px;
+    width:100%;
+    border:1px;
+    border-color:Green;    
+}
+#content
+{
+    height:650px;
+    width:100%;    
+}
+#contenttable
+{
+    height:100%;
+    width:100%;
+    border-top:1px;
+    border-bottom:1px;
+    border-left:0px;
+    border-right:0px;
+    border-color:Gray;
+    border-style:solid;    
+}
+#globaldiv
+{
+    border:0px;    
+}
+#toptable
+{
+    /*height:70px;*/ 
+    padding:0px;
+    table-layout:fixed;   
+}
+.divdifference
+{
+    border-top:1px;
+    border-bottom:0px;
+    border-left:0px;
+    border-right:0px;
+    border-color:Gray;
+    border-style:solid;
+}
+div.topimage
+{
+    width:100%;
+    height:5px;
+    background:url(images/LoginCarbonFiberBgTop.gif) no-repeat bottom;        
+}
+div.divlogin
+{
+    vertical-align:top;
+    text-align:center;
+    background:url(images/LoginPaneCenterMidGlow.png) no-repeat top;
+    border:1px;
+    border-color:#6699FF;
+    border-style:solid;
+}
+td.glowleft
+{
+    background:url(images/LoginPaneCenterLeftBorderGlow.png) no-repeat top right;    
+}
+td.text
+{
+    font-family:Verdana;
+    font-size:8pt;
+    text-align:left;    
+}
+td.textheader
+{
+    font-family:Verdana;    
+    color:Gray;
+    text-align:left;
+    text-decoration:none;   
+}
+.textbox
+{
+    font-family:Verdana;
+    font-size:8pt;
+    border:1px;
+    border-style:solid;
+    border-color:#6699FF;
+    text-align:left;    
+}
+.textboxu
+{
+    text-decoration:underline; 
+}
+.textboxb
+{
+    font-weight:bold;     
+}
+.textboxc
+{
+    text-align:center;    
+}
+.labtext
+{
+    font-family:Verdana;
+    font-size:8pt;    
+}
+.labtextmin
+{
+    font-family:Verdana;
+    font-size:xx-small;
+    color:Gray;
+}
+.labtextminred
+{
+    font-family:Verdana;
+    font-size:xx-small; 
+    color:Red;   
+}
+.textadmin
+{
+    color:#6699FF;    
+}
+td.alignright
+{
+    text-align:right;
+    width:45%;    
+}
+.btnstyle
+{
+    font-family:Verdana;
+    font-size:8pt;
+    border:1px;
+    border-style:solid;
+    border-color:#6699FF;    
+}
+#block
+{
+    border:1px;
+    border-color:#6699FF;
+    border-style:solid;
+    width:140px;    
+}
+#innerblock
+{
+    border:1px;
+    border-color:#6699FF;
+    border-style:solid;
+    width:800px;
+    max-height:630px;
+    overflow:auto; 
+}
+#blockheader
+{
+    background: url(images/cellpic3.gif);
+    background-color:Gray;
+    font-weight:bold;
+    border:0px;
+    border-color:Green;
+    border-style:solid; 
+    text-align:center;
+    padding:3px;
+           
+}
+#blockcontentcenter
+{
+   text-align:center; 
+   padding:3px;    
+}
+#blockcontentleft
+{
+   text-align:left;
+   padding:3px; 
+}
+a:link
+{
+   text-decoration:none; 
+   font-weight:bold; 
+   color:Gray;      
+}
+a:visited 
+{ 
+    text-decoration:none; 
+    font-weight:bold; 
+    color:Gray; 
+}
+a:hover 
+{ 
+    text-decoration:none; 
+    font-weight:bold; 
+    background-color:White; 
+}
+a:active 
+{ 
+    text-decoration:none; 
+    font-weight:bold; 
+   /* background-color:Gray; */
+}
+a:focus 
+{ 
+    text-decoration:none; 
+    font-weight:bold; 
+    background-color:#6699FF; 
+}
+
