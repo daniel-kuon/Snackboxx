@@ -82,6 +82,8 @@
     <Reference Include="WindowsFormsIntegration" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataBaseSchemaUpdates\SchemaUpdater.cs" />
+    <Compile Include="DataBaseSchemaUpdates\UnknownCodeSchemaUpdater.cs" />
     <Compile Include="Forms\ToPayHistory.cs">
       <SubType>Form</SubType>
     </Compile>

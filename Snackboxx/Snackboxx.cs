@@ -12,6 +12,7 @@ using Snackboxx.Core;
 using ReadScannerCode;
 using System.Threading;
 using System.Windows.Forms.Integration;
+using Snackboxx.DataBaseSchemaUpdates;
 using Snackboxx.UserControls;
 using Textmail;
 
@@ -63,13 +64,13 @@ namespace Snackboxx
                 Config = new Config(_iniObj, this, _dbConn);
                 _dbConn = Config.DBConn;
                 tssinfoFOUR.Text = _dbConn.GetState.ToString();
-
+                
                 //after correct connection...
                 _input = new Input(_iniObj, this, _dbConn, _userrights);                
                 
-                
-                
                 this.ShowControl(_input);
+
+                new UnknownCodeSchemaUpdater(_dbConn, _input.WriteInfoLog);
             }
             catch (Exception exp)
             {
@@ -209,15 +210,7 @@ namespace Snackboxx
                                     + "Bei Fragen wenden Sie sich bitte an Daniel.Kuon@rohlig.com.";                
 
                 sendmail.send("Snackboxx@rohlig.com", email, "Snackboxx Zahlungsaufforderung ;)", body, "192.168.2.68");
-
-                string bcc = "Sie haben einen offenen Betrag von " + opensum + " €.\n"
-                                    + "Bitte so schnell wie möglich bei Daniel Kuon begleichen! \n\n"
-                                    + "Mit freundlichen Grüßen \n"
-                                    + "Ihr Snackboxx - Team \n\n\n\n\n\n\n\n\n"
-                                    + "Dies ist eine automatisch generierte E-Mail.  \n"
-                                    + "Bei Fragen wenden Sie sich bitte an Daniel.Kuon@rohlig.com.";
-
-                sendmail.send("Snackboxx@rohlig.com", /*"Daniel.Kuon@rohlig.com"*/email, "Zahlungsaufforderung fuer '"+ email +"': '"+opensum+"' ;)", body, "192.168.2.68");
+                sendmail.send("Snackboxx@rohlig.com", _iniObj.ErrorMail, "Zahlungsaufforderung fuer '"+ email +"': '"+opensum+"' ;)", body, "192.168.2.68");
             }
             catch (Exception exp)
             {
