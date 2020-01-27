@@ -381,7 +381,7 @@ Preis: {lastKnownCodePreis}
 J.A.R.V.I.S.";
 
             SendMail = new Textmail.sendmail();
-            Textmail.sendmail.send("Snackboxx@rohlig.com", "", "Snackboxx error! :c", body, "192.168.2.68");
+            Textmail.sendmail.send("Snackboxx@rohlig.com",_iniObj.ErrorMail , "Snackboxx error! :c", body, "192.168.2.68");
         }
 
         private void tmrFortnite_Tick(object sender, EventArgs e)
