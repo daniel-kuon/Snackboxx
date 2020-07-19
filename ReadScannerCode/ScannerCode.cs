@@ -11,7 +11,6 @@ using System.Reflection;
 using System.Threading;
 using System.Windows.Forms;
 using System.Text.RegularExpressions;
-using Snackboxx.Core;
 
 
 namespace ReadScannerCode

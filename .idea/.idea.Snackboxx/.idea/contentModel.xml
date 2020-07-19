@@ -1,14 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\Daniel Kuon\.Rider2019.3\config\consoles\db" t="IncludeRecursive" />
-    <e p="C:\Users\Daniel Kuon\.Rider2019.3\config\consoles\ide" t="IncludeRecursive" />
-    <e p="C:\Users\Daniel Kuon\.Rider2019.3\config\extensions" t="IncludeRecursive" />
-    <e p="C:\Users\Daniel Kuon\.Rider2019.3\config\scratches" t="IncludeRecursive" />
-    <e p="C:\Users\Daniel Kuon\.Rider2019.3\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\Daniel Kuon\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_Snackboxx.1406975882.00" t="ExcludeRecursive" />
-    <e p="F:\Tausch\snackboxx" t="IncludeFlat">
-      <e p=".git\info\exclude" t="IncludeRecursive" />
+    <e p="C:\Users\danie\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.reporters.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\danie\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.utility.netcoreapp10.dll" t="Include" />
+    <e p="C:\Users\danie\.nuget\packages\xunit.runner.visualstudio\2.4.0\build\netcoreapp1.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll" t="Include" />
+    <e p="C:\Users\danie\AppData\local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\danie\AppData\local\JetBrains\Transient\ReSharperHost\v202\SolutionCaches\_Snackboxx.-441477468.00" t="ExcludeRecursive" />
+    <e p="C:\Users\danie\AppData\Roaming\JetBrains\Rider2020.2\consoles\db" t="IncludeRecursive" />
+    <e p="C:\Users\danie\RiderProjects\snackboxx" t="IncludeFlat">
+      <e p="Core" t="IncludeRecursive">
+        <e p="Attributes" t="Include">
+          <e p="NonPublicDataAttribute.cs" t="Include" />
+          <e p="PropertyCleaner.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Core.csproj" t="IncludeRecursive" />
+        <e p="DatabaseModel" t="Include">
+          <e p="Achievement.cs" t="Include" />
+          <e p="AchievementGroup.cs" t="Include" />
+          <e p="ApplicationUser.cs" t="Include" />
+          <e p="Correction.cs" t="Include" />
+          <e p="DataContext.cs" t="Include" />
+          <e p="Disposal.cs" t="Include" />
+          <e p="DisposalType.cs" t="Include" />
+          <e p="IEntity.cs" t="Include" />
+          <e p="ISensitiveDataEntity.cs" t="Include" />
+          <e p="IUpdateableEntity.cs" t="Include" />
+          <e p="Payment.cs" t="Include" />
+          <e p="PaymentReason.cs" t="Include" />
+          <e p="Product.cs" t="Include" />
+          <e p="ProductBarcode.cs" t="Include" />
+          <e p="ProductPrice.cs" t="Include" />
+          <e p="ProductPurchase.cs" t="Include" />
+          <e p="ProductVoting.cs" t="Include" />
+          <e p="Purchase.cs" t="Include" />
+          <e p="Roles.cs" t="Include" />
+          <e p="Sale.cs" t="Include" />
+          <e p="ShelfDisposal.cs" t="Include" />
+          <e p="ShelfMovement.cs" t="Include" />
+          <e p="StockChange.cs" t="Include" />
+          <e p="StockDisposal.cs" t="Include" />
+          <e p="TimeEntry.cs" t="Include" />
+          <e p="UserAchievement.cs" t="Include" />
+          <e p="UserBarcode.cs" t="Include" />
+          <e p="UserPaymentBarcode.cs" t="Include" />
+          <e p="UserTimeBarcode.cs" t="Include" />
+          <e p="UserVoting.cs" t="Include" />
+        </e>
+        <e p="DataTransferObjects" t="Include">
+          <e p="PaymentCreatedResponse.cs" t="Include" />
+          <e p="PurchaseOverview.cs" t="Include" />
+          <e p="SaleCreatedResponse.cs" t="Include" />
+          <e p="SaleSummary.cs" t="Include" />
+          <e p="SaleSummaryMode.cs" t="Include" />
+          <e p="TimeTrackingResponse.cs" t="Include" />
+          <e p="UserOverview.cs" t="Include" />
+        </e>
+        <e p="EnumerableExtensions.cs" t="Include" />
+        <e p="ExceptionMEssages.cs" t="Include" />
+        <e p="IncludeExtensions.cs" t="Include" />
+        <e p="Notifications" t="Include">
+          <e p="Mailings.cs" t="Include" />
+          <e p="MailTemplates" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Core.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="QueryableExtensions.cs" t="Include" />
+        <e p="Services" t="Include">
+          <e p="AdminService.cs" t="Include" />
+          <e p="EntityNotFoundException.cs" t="Include" />
+          <e p="EntityService.cs" t="Include" />
+          <e p="PaymentService.cs" t="Include" />
+          <e p="PurchaseService.cs" t="Include" />
+          <e p="StockService.cs" t="Include" />
+          <e p="UserService.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Core.Tests" t="IncludeRecursive">
+        <e p="Assembly.cs" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Core.Tests.csproj" t="IncludeRecursive" />
+        <e p="EnsureDatabaseExists.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Core.Tests.AssemblyInfo.cs" t="Include" />
+              <e p="Core.Tests.Program.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Seeder.cs" t="Include" />
+        <e p="UserServiceTests.cs" t="Include" />
+      </e>
       <e p="packages" t="ExcludeRecursive" />
       <e p="ReadScannerCode" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
@@ -19,140 +107,81 @@
         <e p="ReadScannerCode.csproj" t="IncludeRecursive" />
         <e p="ScannerCode.cs" t="Include" />
       </e>
-      <e p="snackboxx" t="IncludeRecursive">
+      <e p="Snackboxx.sln" t="IncludeFlat" />
+      <e p="Website" t="IncludeRecursive">
+        <e p=".gitignore" t="Include" />
+        <e p="app.db" t="Include" />
+        <e p="appsettings.Development.json" t="Include" />
+        <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
-        <e p="Forms" t="Include">
-          <e p="ToPayHistory.cs" t="Include" />
-          <e p="ToPayHistory.Designer.cs" t="Include" />
-          <e p="ToPayHistory.resx" t="Include" />
+        <e p="ClientApp" t="Include">
+          <e p=".env" t="Include" />
+          <e p=".gitignore" t="Include" />
+          <e p="package-lock.json" t="Include" />
+          <e p="package.json" t="Include" />
+          <e p="public" t="Include">
+            <e p="favicon.ico" t="Include" />
+            <e p="index.html" t="Include" />
+            <e p="manifest.json" t="Include" />
+          </e>
+          <e p="README.md" t="Include" />
+          <e p="src" t="Include">
+            <e p="App.js" t="Include" />
+            <e p="App.test.js" t="Include" />
+            <e p="components" t="Include">
+              <e p="api-authorization" t="Include">
+                <e p="ApiAuthorizationConstants.js" t="Include" />
+                <e p="ApiAuthorizationRoutes.js" t="Include" />
+                <e p="AuthorizeRoute.js" t="Include" />
+                <e p="AuthorizeService.js" t="Include" />
+                <e p="Login.js" t="Include" />
+                <e p="LoginMenu.js" t="Include" />
+                <e p="Logout.js" t="Include" />
+              </e>
+              <e p="Counter.js" t="Include" />
+              <e p="FetchData.js" t="Include" />
+              <e p="Home.js" t="Include" />
+              <e p="Layout.js" t="Include" />
+              <e p="NavMenu.css" t="Include" />
+              <e p="NavMenu.js" t="Include" />
+            </e>
+            <e p="custom.css" t="Include" />
+            <e p="index.js" t="Include" />
+            <e p="registerServiceWorker.js" t="Include" />
+            <e p="setupTests.js" t="Include" />
+          </e>
         </e>
+        <e p="Controllers" t="Include">
+          <e p="OidcConfigurationController.cs" t="Include" />
+          <e p="PurchaseApi.cs" t="Include" />
+          <e p="User.cs" t="Include" />
+        </e>
+        <e p="Data" t="Include">
+          <e p="Migrations" t="Include" />
+        </e>
+        <e p="Models" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
-            <e p="GeneratedInternalTypeHelper.g.cs" t="Include" />
-            <e p="WpfControls" t="Include">
-              <e p="Config.g.cs" t="Include" />
+            <e p="netcoreapp3.1" t="Include">
+              <e p="Website.AssemblyInfo.cs" t="Include" />
+              <e p="Website.RazorAssemblyInfo.cs" t="Include" />
             </e>
+          </e>
+        </e>
+        <e p="Pages" t="Include">
+          <e p="_ViewImports.cshtml" t="Include" />
+          <e p="Error.cshtml" t="Include" />
+          <e p="Error.cshtml.cs" t="Include" />
+          <e p="Shared" t="Include">
+            <e p="_LoginPartial.cshtml" t="Include" />
           </e>
         </e>
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
-          <e p="Annotations.cs" t="Include" />
-          <e p="AssemblyInfo.cs" t="Include" />
-          <e p="Resources.Designer.cs" t="Include" />
-          <e p="Resources.resx" t="Include" />
-          <e p="Settings.Designer.cs" t="Include" />
-          <e p="Settings.settings" t="Include" />
+          <e p="launchSettings.json" t="Include" />
         </e>
-        <e p="Resources" t="Include">
-          <e p="Calender.png" t="Include" />
-          <e p="Config-Tools.png" t="Include" />
-          <e p="Delete.png" t="Include" />
-          <e p="Edit.png" t="Include" />
-          <e p="Help-and-Support.png" t="Include" />
-          <e p="Recycle Bin Empty.png" t="Include" />
-          <e p="Recycle Bin Full.png" t="Include" />
-          <e p="Run.png" t="Include" />
-          <e p="Save.png" t="Include" />
-          <e p="Symbol-Help.png" t="Include" />
-        </e>
-        <e p="Snackboxx.cs" t="Include" />
-        <e p="Snackboxx.csproj" t="IncludeRecursive" />
-        <e p="Snackboxx.Designer.cs" t="Include" />
-        <e p="Snackboxx.resx" t="Include" />
-        <e p="UserControls" t="Include">
-          <e p="Config.cs" t="Include" />
-          <e p="Config.Designer.cs" t="Include" />
-          <e p="Config.resx" t="Include" />
-          <e p="Form1.cs" t="Include" />
-          <e p="Form1.Designer.cs" t="Include" />
-          <e p="Form1.resx" t="Include" />
-          <e p="Input.cs" t="Include" />
-          <e p="Input.Designer.cs" t="Include" />
-          <e p="Input.resx" t="Include" />
-          <e p="Members.cs" t="Include" />
-          <e p="Members.Designer.cs" t="Include" />
-          <e p="Members.resx" t="Include" />
-          <e p="ScanEntry.cs" t="Include" />
-          <e p="Security.cs" t="Include" />
-          <e p="Security.Designer.cs" t="Include" />
-          <e p="Security.resx" t="Include" />
-        </e>
-        <e p="ValueConverters" t="Include">
-          <e p="BoolConverter.cs" t="Include" />
-          <e p="BoolInverter.cs" t="Include" />
-        </e>
-        <e p="WpfControls" t="Include">
-          <e p="Config.xaml" t="Include" />
-          <e p="Config.xaml.cs" t="Include" />
-        </e>
-      </e>
-      <e p="Snackboxx Service" t="IncludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="obj" t="ExcludeRecursive" />
-        <e p="Properties" t="Include">
-          <e p="AssemblyInfo.cs" t="Include" />
-        </e>
-        <e p="Snackboxx Service.csproj" t="IncludeRecursive" />
-        <e p="SnackboxxService.cs" t="Include" />
-        <e p="WinServInstaller.cs" t="Include" />
-        <e p="Worker.cs" t="Include" />
-      </e>
-      <e p="Snackboxx.Core" t="IncludeRecursive">
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="Crypt.cs" t="Include" />
-        <e p="LogFileClass.cs" t="Include" />
-        <e p="obj" t="ExcludeRecursive" />
-        <e p="Properties" t="Include">
-          <e p="AssemblyInfo.cs" t="Include" />
-        </e>
-        <e p="ReadIni.cs" t="Include" />
-        <e p="RegistryReader.cs" t="Include" />
-        <e p="Snackboxx.Core.csproj" t="IncludeRecursive" />
-        <e p="SQLConnection.cs" t="Include" />
-        <e p="UserClass.cs" t="Include" />
-      </e>
-      <e p="Snackboxx.sln" t="IncludeFlat" />
-      <e p="SnackBoxxWeb" t="IncludeRecursive">
-        <e p="App_Data" t="Include" />
-        <e p="bin" t="ExcludeRecursive" />
-        <e p="Controls" t="Include">
-          <e p="TimeRegistration.ascx" t="Include" />
-          <e p="TimeRegistration.ascx.cs" t="Include" />
-          <e p="TimeRegistration.ascx.designer.cs" t="Include" />
-          <e p="UserConfig.ascx" t="Include" />
-          <e p="UserConfig.ascx.cs" t="Include" />
-          <e p="UserConfig.ascx.designer.cs" t="Include" />
-        </e>
-        <e p="Default.aspx" t="Include" />
-        <e p="Default.aspx.cs" t="Include" />
-        <e p="Default.aspx.designer.cs" t="Include" />
-        <e p="globalstyle.css" t="Include" />
-        <e p="images" t="Include">
-          <e p="BioHazard.ico" t="Include" />
-          <e p="BioHazard.png" t="Include" />
-          <e p="cellpic3.gif" t="Include" />
-          <e p="CitrixWatermark.gif" t="Include" />
-          <e p="ContentArea.gif" t="Include" />
-          <e p="LeftMarginShadowStrip.gif" t="Include" />
-          <e p="LoginCarbonFiberBgFooter.png" t="Include" />
-          <e p="LoginCarbonFiberBgTop.gif" t="Include" />
-          <e p="LoginPaneCenterLeftBorderGlow.png" t="Include" />
-          <e p="LoginPaneCenterMidGlow.png" t="Include" />
-          <e p="MarginGradient.gif" t="Include" />
-          <e p="offline.png" t="Include" />
-          <e p="online.png" t="Include" />
-          <e p="RightMarginShadowStrip.gif" t="Include" />
-        </e>
-        <e p="obj" t="ExcludeRecursive" />
-        <e p="Properties" t="Include">
-          <e p="AssemblyInfo.cs" t="Include" />
-        </e>
-        <e p="settings.xml" t="Include" />
-        <e p="SnackBoxxWeb.csproj" t="IncludeRecursive" />
-        <e p="startform.aspx" t="Include" />
-        <e p="startform.aspx.cs" t="Include" />
-        <e p="startform.aspx.designer.cs" t="Include" />
-        <e p="Web.config" t="Include" />
+        <e p="Startup.cs" t="Include" />
+        <e p="Website.csproj" t="IncludeRecursive" />
       </e>
     </e>
   </component>
